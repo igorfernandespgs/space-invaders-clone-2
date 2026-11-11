@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://bvsl7mswx0tki"]
+
+[ext_resource type="Script" uid="uid://c1abiixyoccgv" path="res://player.gd" id="1_4flbx"]
+[ext_resource type="Texture2D" uid="uid://cwnb1it42y1gg" path="res://spritesheet.png" id="2_onrkg"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_onrkg"]
+atlas = ExtResource("2_onrkg")
+region = Rect2(3.0015402, 48.99104, 13.008769, 8.016468)
+
+[node name="Player" type="Node2D" unique_id=256820955]
+script = ExtResource("1_4flbx")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1586211154]
+scale = Vector2(3, 3)
+texture = SubResource("AtlasTexture_onrkg")
