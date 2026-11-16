@@ -5,7 +5,7 @@
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rtl8c"]
 atlas = ExtResource("1_v7oki")
-region = Rect2(51.99767, 21.013735, 1.0026321, 6.9243298)
+region = Rect2(52, 21, 1, 5)
 
 [node name="Bullet" type="Node2D" unique_id=2140689443]
 script = ExtResource("1_v8qja")
