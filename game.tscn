@@ -11,6 +11,3 @@ script = ExtResource("1_feb5d")
 position = Vector2(590, 608)
 bullet_scene = ExtResource("2_e2o6t")
 speed = 200
-
-[node name="Bullet" parent="." unique_id=2140689443 instance=ExtResource("2_e2o6t")]
-position = Vector2(586, 568)

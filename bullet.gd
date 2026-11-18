@@ -1,3 +1,4 @@
+@icon ("res://addons/at-icons/node2d/bullet.svg")
 class_name Bullet extends Node2D
 
 @export var speed = 250
