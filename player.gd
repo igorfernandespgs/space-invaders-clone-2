@@ -17,9 +17,10 @@ func _process(delta: float) -> void:
 	elif Input.is_action_pressed("move_right"):
 		if position.x <= game_instance.world_right_limit:
 			position.x += speed * delta
-	if (Input.is_action_just_pressed("shoot")):
+	if Input.is_action_just_pressed("shoot"):
+		# TODO: Tipa todas as variáveis
 		var bullet_instance = bullet_scene.instantiate()
-		get_tree().get_nodes_in_group("game")[0].add_child(bullet_instance)
+		get_tree().get_first_node_in_group("game").add_child(bullet_instance)
 		bullet_instance.position = position
 		bullet_instance.position.y -= bullet_offset
 		
